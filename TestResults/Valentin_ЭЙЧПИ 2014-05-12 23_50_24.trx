@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="83bbd8d4-49e2-472d-a9b7-45e28e93f071" name="Valentin@ЭЙЧПИ 2014-05-12 23:50:24" runUser="ЭйчПи\Valentin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="44e2f2f2-61dd-42f3-be50-d92d9303a85e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Valentin_ЭЙЧПИ 2014-05-12 23_50_24">
+      <DeploymentItem filename="C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Task.dll" />
+      <DeploymentItem filename="C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\packages\Moq.4.2.1402.2112\lib\net40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-12T23:50:24.0278982+06:00" queuing="2014-05-12T23:50:24.0629002+06:00" start="2014-05-12T23:50:24.0909018+06:00" finish="2014-05-12T23:50:24.8489451+06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="25" executed="25" passed="25" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UnsuccessfullySplitExpressionTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="2c53530e-d332-6e20-e6a2-b396da3246a2">
+      <Execution id="ff49f2cb-8d33-477e-8b28-57aaf189819a" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionLexemeTestsNamespace.ExpressionLexemeTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnsuccessfullySplitExpressionTest" />
+    </UnitTest>
+    <UnitTest name="MissingOperandTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="d6d663f5-4193-9a1b-1fd9-9803e8a98594">
+      <Execution id="7d978362-bc1f-4b97-b403-f13bedc13562" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.SyntaxAnalyserTestsNamespace.SyntaxAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MissingOperandTest" />
+    </UnitTest>
+    <UnitTest name="InvalidLexemeParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="e52307ec-ef93-cac2-9935-76339fac645d">
+      <Execution id="add04979-cb00-452a-81e8-5256b9d02764" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexemeAnalyserTestsNamespace.LexemeAnalyserBaseTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InvalidLexemeParseTest" />
+    </UnitTest>
+    <UnitTest name="SuccessfullyTakeUnaryOperatorTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="55d38ebd-721c-0405-a69f-c7272c52d4fa">
+      <Execution id="9f239038-229c-4c1a-ab3e-6c1dadcdc62c" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionLexemeTestsNamespace.ExpressionLexemeTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuccessfullyTakeUnaryOperatorTest" />
+    </UnitTest>
+    <UnitTest name="ResetTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="920d66cf-0b10-e574-1a3f-4a2a9689ebd2">
+      <Execution id="c62e0557-ddbd-4118-8fb0-bf530c92479b" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexemeAnalyserTestsNamespace.LexemeAnalyserBaseTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResetTest" />
+    </UnitTest>
+    <UnitTest name="SimultaneousSeveralLexemeAnalysersCompletedTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="7090db44-d72d-586c-ad1b-d349f8d9d964">
+      <Execution id="36035e8d-bf84-43fd-a207-18467e393c24" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexicalAnalyserTestsNamespace.LexicalAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimultaneousSeveralLexemeAnalysersCompletedTest" />
+    </UnitTest>
+    <UnitTest name="ValidExpressionParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="80f5f377-b99a-d8db-8fa6-7b486c6e91fb">
+      <Execution id="4c4ee4b3-4b2e-4ac5-a6e6-5999e7c52f32" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.SyntaxAnalyserTestsNamespace.SyntaxAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidExpressionParseTest" />
+    </UnitTest>
+    <UnitTest name="UnsuccessfullyTakeUnaryOperatorTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="d97ed485-788f-d2ea-0b63-405b8a679f2c">
+      <Execution id="e6dacf6d-e082-4b63-b86a-830a4593f9d0" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionLexemeTestsNamespace.ExpressionLexemeTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnsuccessfullyTakeUnaryOperatorTest" />
+    </UnitTest>
+    <UnitTest name="ExpressionContainsOnlyWhitespaceCharsTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="d3237ab3-2af5-ad48-283b-21ece9c13ab9">
+      <Execution id="8c6e1353-635f-46f7-8408-6b522bdaad86" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.CalculatorTestsNamespace.CalculatorTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExpressionContainsOnlyWhitespaceCharsTest" />
+    </UnitTest>
+    <UnitTest name="FixedLengthValidLexemeParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="62ede6f6-632e-2f0d-bb8f-4cd2451160ec">
+      <Execution id="5d31faa7-2a29-4844-9015-9298812e1b10" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexemeAnalyserTestsNamespace.LexemeAnalyserBaseTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FixedLengthValidLexemeParseTest" />
+    </UnitTest>
+    <UnitTest name="EmptyExpressionTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="d90f8e4a-d24c-31b3-92f8-52c7e3dc8c52">
+      <Execution id="5fc58585-1a0f-4d75-a843-12d24dae5250" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionAnalyserTestsNamespace.ExpressionAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmptyExpressionTest" />
+    </UnitTest>
+    <UnitTest name="MissingClosingBracketTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="232a5548-4871-237d-0e58-a05deb25ed09">
+      <Execution id="8d2d21f1-212d-4eb9-a4bc-31a81fbd1f81" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionAnalyserTestsNamespace.ExpressionAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MissingClosingBracketTest" />
+    </UnitTest>
+    <UnitTest name="SuccessfullySplitExpressionTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="98cf234d-b275-52ba-6058-f321612b0833">
+      <Execution id="a69f9531-dc04-4482-96f4-6e4e52029e4c" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionLexemeTestsNamespace.ExpressionLexemeTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuccessfullySplitExpressionTest" />
+    </UnitTest>
+    <UnitTest name="CreateExpressionTreeAndCalculateResultTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="d4f3ad68-642a-08f1-891e-89400cd105ab">
+      <Execution id="8dfcde0f-be90-437c-bedf-2b60eb50b29b" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionTreeTestsNamespace.ExpressionTreeTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateExpressionTreeAndCalculateResultTest" />
+    </UnitTest>
+    <UnitTest name="ExpressionNullTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="f1ee1817-cebe-daa2-1b5f-2d1354886c04">
+      <Execution id="acfaa59c-b3f7-4039-b486-1921d7970ef9" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.CalculatorTestsNamespace.CalculatorTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExpressionNullTest" />
+    </UnitTest>
+    <UnitTest name="UnknowLexemeTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="a168ad7d-6f93-75e9-ecff-0ca684e068b0">
+      <Execution id="dac13578-e183-44f7-85fa-7d48706418b3" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexicalAnalyserTestsNamespace.LexicalAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnknowLexemeTest" />
+    </UnitTest>
+    <UnitTest name="CompetitionParseModelTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="ec3dc4aa-1f12-fcf4-036d-cc4443e9b1b3">
+      <Execution id="00be670e-a912-448d-8b27-e49c631f8503" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexicalAnalyserTestsNamespace.LexicalAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompetitionParseModelTest" />
+    </UnitTest>
+    <UnitTest name="InvalidAccessToStepMethodTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="0370b01b-b99a-ec90-2544-628dc111273d">
+      <Execution id="495b6d98-5168-4240-b96f-b1bd6999ab5f" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexemeAnalyserTestsNamespace.LexemeAnalyserBaseTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InvalidAccessToStepMethodTest" />
+    </UnitTest>
+    <UnitTest name="GreedyParseModelTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="2a279429-fdc2-3e7e-57da-2fa373326ed9">
+      <Execution id="ad22de36-569d-4547-bd84-0165e3d0cf50" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexicalAnalyserTestsNamespace.LexicalAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GreedyParseModelTest" />
+    </UnitTest>
+    <UnitTest name="SimpleExpressionParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="9981917e-9bde-1882-bb86-cffc6e28ff5d">
+      <Execution id="056d3228-97c7-4c8d-bc3b-452c30ba5a47" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionAnalyserTestsNamespace.ExpressionAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleExpressionParseTest" />
+    </UnitTest>
+    <UnitTest name="CalculateTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="59c3eca1-7964-71bf-3367-5970d2784bb6">
+      <Execution id="9b473431-2999-4142-9afb-c08ef70dd4b5" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.CalculatorTestsNamespace.CalculatorTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateTest" />
+    </UnitTest>
+    <UnitTest name="MoreThanOneTransitionAvailableTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="6059f41e-71fe-7fd4-021a-ea544a452428">
+      <Execution id="d24702c5-15a1-4a00-b380-a986eccf7e76" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexemeAnalyserTestsNamespace.LexemeAnalyserBaseTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MoreThanOneTransitionAvailableTest" />
+    </UnitTest>
+    <UnitTest name="MissingOpeningBracketTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="82af90d1-888c-a771-d34e-e15ff56e61d3">
+      <Execution id="015580ed-586e-463a-ad75-1ebe713d1bc9" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionAnalyserTestsNamespace.ExpressionAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MissingOpeningBracketTest" />
+    </UnitTest>
+    <UnitTest name="VariableLengthValidLexemeParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="69fb1872-85d0-e4d0-34f8-ad2b8a621797">
+      <Execution id="8451adab-4ce8-43df-b2a5-0468048d1366" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.LexemeAnalyserTestsNamespace.LexemeAnalyserBaseTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VariableLengthValidLexemeParseTest" />
+    </UnitTest>
+    <UnitTest name="ComplexExpressionParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" id="f0d6aee8-ce5d-1c1b-221b-444f9f4ced05">
+      <Execution id="e6959ace-b90b-49db-ad9d-b88871282d87" />
+      <TestMethod codeBase="C:/Users/Valentin/SkyDrive/Visual Studio Projects/ByndyuSoft/Calculator/Task.Tests/bin/Debug/Task.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task.Tests.ExpressionAnalyserTestsNamespace.ExpressionAnalyserTests, Task.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComplexExpressionParseTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="LexicalAnalyser" id="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="a168ad7d-6f93-75e9-ecff-0ca684e068b0" name="UnknowLexemeTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="7090db44-d72d-586c-ad1b-d349f8d9d964" name="SimultaneousSeveralLexemeAnalysersCompletedTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="ec3dc4aa-1f12-fcf4-036d-cc4443e9b1b3" name="CompetitionParseModelTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="2a279429-fdc2-3e7e-57da-2fa373326ed9" name="GreedyParseModelTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="SyntaxAnalyser" id="2960917e-6f15-4fe4-b57d-a5a67f228275" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="d6d663f5-4193-9a1b-1fd9-9803e8a98594" name="MissingOperandTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="80f5f377-b99a-d8db-8fa6-7b486c6e91fb" name="ValidExpressionParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="ExpressionAnalyser" id="0f597917-88c7-4171-ba0c-96c42dfcb745" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="232a5548-4871-237d-0e58-a05deb25ed09" name="MissingClosingBracketTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="9981917e-9bde-1882-bb86-cffc6e28ff5d" name="SimpleExpressionParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d90f8e4a-d24c-31b3-92f8-52c7e3dc8c52" name="EmptyExpressionTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="82af90d1-888c-a771-d34e-e15ff56e61d3" name="MissingOpeningBracketTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="f0d6aee8-ce5d-1c1b-221b-444f9f4ced05" name="ComplexExpressionParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="LexemeAnalyserBase" id="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="e52307ec-ef93-cac2-9935-76339fac645d" name="InvalidLexemeParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="920d66cf-0b10-e574-1a3f-4a2a9689ebd2" name="ResetTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="62ede6f6-632e-2f0d-bb8f-4cd2451160ec" name="FixedLengthValidLexemeParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="69fb1872-85d0-e4d0-34f8-ad2b8a621797" name="VariableLengthValidLexemeParseTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="0370b01b-b99a-ec90-2544-628dc111273d" name="InvalidAccessToStepMethodTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="6059f41e-71fe-7fd4-021a-ea544a452428" name="MoreThanOneTransitionAvailableTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="Calculator" id="3009f145-bf61-47df-8c21-bb92aae2ea90" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="59c3eca1-7964-71bf-3367-5970d2784bb6" name="CalculateTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="f1ee1817-cebe-daa2-1b5f-2d1354886c04" name="ExpressionNullTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d3237ab3-2af5-ad48-283b-21ece9c13ab9" name="ExpressionContainsOnlyWhitespaceCharsTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="ExpressionTree" id="fa2890fc-f196-40b2-88cb-3ae5e549fa10" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="d4f3ad68-642a-08f1-891e-89400cd105ab" name="CreateExpressionTreeAndCalculateResultTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="Списки результатов" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="ExpressionLexeme" id="ac8666b7-5560-4f21-9383-072dfa22b433" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="55d38ebd-721c-0405-a69f-c7272c52d4fa" name="SuccessfullyTakeUnaryOperatorTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d97ed485-788f-d2ea-0b63-405b8a679f2c" name="UnsuccessfullyTakeUnaryOperatorTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="98cf234d-b275-52ba-6058-f321612b0833" name="SuccessfullySplitExpressionTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="2c53530e-d332-6e20-e6a2-b396da3246a2" name="UnsuccessfullySplitExpressionTest" storage="c:\users\valentin\skydrive\visual studio projects\byndyusoft\calculator\task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2a279429-fdc2-3e7e-57da-2fa373326ed9" executionId="ad22de36-569d-4547-bd84-0165e3d0cf50" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" />
+    <TestEntry testId="a168ad7d-6f93-75e9-ecff-0ca684e068b0" executionId="dac13578-e183-44f7-85fa-7d48706418b3" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" />
+    <TestEntry testId="7090db44-d72d-586c-ad1b-d349f8d9d964" executionId="36035e8d-bf84-43fd-a207-18467e393c24" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" />
+    <TestEntry testId="ec3dc4aa-1f12-fcf4-036d-cc4443e9b1b3" executionId="00be670e-a912-448d-8b27-e49c631f8503" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" />
+    <TestEntry testId="d90f8e4a-d24c-31b3-92f8-52c7e3dc8c52" executionId="5fc58585-1a0f-4d75-a843-12d24dae5250" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" />
+    <TestEntry testId="82af90d1-888c-a771-d34e-e15ff56e61d3" executionId="015580ed-586e-463a-ad75-1ebe713d1bc9" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" />
+    <TestEntry testId="9981917e-9bde-1882-bb86-cffc6e28ff5d" executionId="056d3228-97c7-4c8d-bc3b-452c30ba5a47" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" />
+    <TestEntry testId="f0d6aee8-ce5d-1c1b-221b-444f9f4ced05" executionId="e6959ace-b90b-49db-ad9d-b88871282d87" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" />
+    <TestEntry testId="232a5548-4871-237d-0e58-a05deb25ed09" executionId="8d2d21f1-212d-4eb9-a4bc-31a81fbd1f81" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" />
+    <TestEntry testId="80f5f377-b99a-d8db-8fa6-7b486c6e91fb" executionId="4c4ee4b3-4b2e-4ac5-a6e6-5999e7c52f32" testListId="2960917e-6f15-4fe4-b57d-a5a67f228275" />
+    <TestEntry testId="d6d663f5-4193-9a1b-1fd9-9803e8a98594" executionId="7d978362-bc1f-4b97-b403-f13bedc13562" testListId="2960917e-6f15-4fe4-b57d-a5a67f228275" />
+    <TestEntry testId="59c3eca1-7964-71bf-3367-5970d2784bb6" executionId="9b473431-2999-4142-9afb-c08ef70dd4b5" testListId="3009f145-bf61-47df-8c21-bb92aae2ea90" />
+    <TestEntry testId="f1ee1817-cebe-daa2-1b5f-2d1354886c04" executionId="acfaa59c-b3f7-4039-b486-1921d7970ef9" testListId="3009f145-bf61-47df-8c21-bb92aae2ea90" />
+    <TestEntry testId="d3237ab3-2af5-ad48-283b-21ece9c13ab9" executionId="8c6e1353-635f-46f7-8408-6b522bdaad86" testListId="3009f145-bf61-47df-8c21-bb92aae2ea90" />
+    <TestEntry testId="d97ed485-788f-d2ea-0b63-405b8a679f2c" executionId="e6dacf6d-e082-4b63-b86a-830a4593f9d0" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" />
+    <TestEntry testId="98cf234d-b275-52ba-6058-f321612b0833" executionId="a69f9531-dc04-4482-96f4-6e4e52029e4c" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" />
+    <TestEntry testId="55d38ebd-721c-0405-a69f-c7272c52d4fa" executionId="9f239038-229c-4c1a-ab3e-6c1dadcdc62c" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" />
+    <TestEntry testId="2c53530e-d332-6e20-e6a2-b396da3246a2" executionId="ff49f2cb-8d33-477e-8b28-57aaf189819a" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" />
+    <TestEntry testId="69fb1872-85d0-e4d0-34f8-ad2b8a621797" executionId="8451adab-4ce8-43df-b2a5-0468048d1366" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" />
+    <TestEntry testId="0370b01b-b99a-ec90-2544-628dc111273d" executionId="495b6d98-5168-4240-b96f-b1bd6999ab5f" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" />
+    <TestEntry testId="6059f41e-71fe-7fd4-021a-ea544a452428" executionId="d24702c5-15a1-4a00-b380-a986eccf7e76" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" />
+    <TestEntry testId="920d66cf-0b10-e574-1a3f-4a2a9689ebd2" executionId="c62e0557-ddbd-4118-8fb0-bf530c92479b" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" />
+    <TestEntry testId="62ede6f6-632e-2f0d-bb8f-4cd2451160ec" executionId="5d31faa7-2a29-4844-9015-9298812e1b10" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" />
+    <TestEntry testId="e52307ec-ef93-cac2-9935-76339fac645d" executionId="add04979-cb00-452a-81e8-5256b9d02764" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" />
+    <TestEntry testId="d4f3ad68-642a-08f1-891e-89400cd105ab" executionId="8dfcde0f-be90-437c-bedf-2b60eb50b29b" testListId="fa2890fc-f196-40b2-88cb-3ae5e549fa10" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ad22de36-569d-4547-bd84-0165e3d0cf50" testId="2a279429-fdc2-3e7e-57da-2fa373326ed9" testName="GreedyParseModelTest" computerName="ЭЙЧПИ" duration="00:00:00.2017186" startTime="2014-05-12T23:50:24.0979022+06:00" endTime="2014-05-12T23:50:24.5339271+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" relativeResultsDirectory="ad22de36-569d-4547-bd84-0165e3d0cf50">
+    </UnitTestResult>
+    <UnitTestResult executionId="dac13578-e183-44f7-85fa-7d48706418b3" testId="a168ad7d-6f93-75e9-ecff-0ca684e068b0" testName="UnknowLexemeTest" computerName="ЭЙЧПИ" duration="00:00:00.0079452" startTime="2014-05-12T23:50:24.5379273+06:00" endTime="2014-05-12T23:50:24.5489280+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" relativeResultsDirectory="dac13578-e183-44f7-85fa-7d48706418b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="36035e8d-bf84-43fd-a207-18467e393c24" testId="7090db44-d72d-586c-ad1b-d349f8d9d964" testName="SimultaneousSeveralLexemeAnalysersCompletedTest" computerName="ЭЙЧПИ" duration="00:00:00.0040247" startTime="2014-05-12T23:50:24.5519281+06:00" endTime="2014-05-12T23:50:24.5599286+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" relativeResultsDirectory="36035e8d-bf84-43fd-a207-18467e393c24">
+    </UnitTestResult>
+    <UnitTestResult executionId="00be670e-a912-448d-8b27-e49c631f8503" testId="ec3dc4aa-1f12-fcf4-036d-cc4443e9b1b3" testName="CompetitionParseModelTest" computerName="ЭЙЧПИ" duration="00:00:00.0027004" startTime="2014-05-12T23:50:24.5639288+06:00" endTime="2014-05-12T23:50:24.5689291+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" relativeResultsDirectory="00be670e-a912-448d-8b27-e49c631f8503">
+    </UnitTestResult>
+    <UnitTestResult executionId="5fc58585-1a0f-4d75-a843-12d24dae5250" testId="d90f8e4a-d24c-31b3-92f8-52c7e3dc8c52" testName="EmptyExpressionTest" computerName="ЭЙЧПИ" duration="00:00:00.0162881" startTime="2014-05-12T23:50:24.5709292+06:00" endTime="2014-05-12T23:50:24.5909304+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" relativeResultsDirectory="5fc58585-1a0f-4d75-a843-12d24dae5250">
+    </UnitTestResult>
+    <UnitTestResult executionId="015580ed-586e-463a-ad75-1ebe713d1bc9" testId="82af90d1-888c-a771-d34e-e15ff56e61d3" testName="MissingOpeningBracketTest" computerName="ЭЙЧПИ" duration="00:00:00.0026593" startTime="2014-05-12T23:50:24.5929305+06:00" endTime="2014-05-12T23:50:24.5989308+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" relativeResultsDirectory="015580ed-586e-463a-ad75-1ebe713d1bc9">
+    </UnitTestResult>
+    <UnitTestResult executionId="056d3228-97c7-4c8d-bc3b-452c30ba5a47" testId="9981917e-9bde-1882-bb86-cffc6e28ff5d" testName="SimpleExpressionParseTest" computerName="ЭЙЧПИ" duration="00:00:00.0026978" startTime="2014-05-12T23:50:24.6009309+06:00" endTime="2014-05-12T23:50:24.6079313+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" relativeResultsDirectory="056d3228-97c7-4c8d-bc3b-452c30ba5a47">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6959ace-b90b-49db-ad9d-b88871282d87" testId="f0d6aee8-ce5d-1c1b-221b-444f9f4ced05" testName="ComplexExpressionParseTest" computerName="ЭЙЧПИ" duration="00:00:00.0016724" startTime="2014-05-12T23:50:24.6099315+06:00" endTime="2014-05-12T23:50:24.6139317+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" relativeResultsDirectory="e6959ace-b90b-49db-ad9d-b88871282d87">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d2d21f1-212d-4eb9-a4bc-31a81fbd1f81" testId="232a5548-4871-237d-0e58-a05deb25ed09" testName="MissingClosingBracketTest" computerName="ЭЙЧПИ" duration="00:00:00.0024323" startTime="2014-05-12T23:50:24.6159318+06:00" endTime="2014-05-12T23:50:24.6219321+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="0f597917-88c7-4171-ba0c-96c42dfcb745" relativeResultsDirectory="8d2d21f1-212d-4eb9-a4bc-31a81fbd1f81">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c4ee4b3-4b2e-4ac5-a6e6-5999e7c52f32" testId="80f5f377-b99a-d8db-8fa6-7b486c6e91fb" testName="ValidExpressionParseTest" computerName="ЭЙЧПИ" duration="00:00:00.0274940" startTime="2014-05-12T23:50:24.6339328+06:00" endTime="2014-05-12T23:50:24.6649346+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="2960917e-6f15-4fe4-b57d-a5a67f228275" relativeResultsDirectory="4c4ee4b3-4b2e-4ac5-a6e6-5999e7c52f32">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d978362-bc1f-4b97-b403-f13bedc13562" testId="d6d663f5-4193-9a1b-1fd9-9803e8a98594" testName="MissingOperandTest" computerName="ЭЙЧПИ" duration="00:00:00.0127624" startTime="2014-05-12T23:50:24.6679348+06:00" endTime="2014-05-12T23:50:24.6849357+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="2960917e-6f15-4fe4-b57d-a5a67f228275" relativeResultsDirectory="7d978362-bc1f-4b97-b403-f13bedc13562">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b473431-2999-4142-9afb-c08ef70dd4b5" testId="59c3eca1-7964-71bf-3367-5970d2784bb6" testName="CalculateTest" computerName="ЭЙЧПИ" duration="00:00:00.0201675" startTime="2014-05-12T23:50:24.6869359+06:00" endTime="2014-05-12T23:50:24.7099372+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="3009f145-bf61-47df-8c21-bb92aae2ea90" relativeResultsDirectory="9b473431-2999-4142-9afb-c08ef70dd4b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="acfaa59c-b3f7-4039-b486-1921d7970ef9" testId="f1ee1817-cebe-daa2-1b5f-2d1354886c04" testName="ExpressionNullTest" computerName="ЭЙЧПИ" duration="00:00:00.0113123" startTime="2014-05-12T23:50:24.7119373+06:00" endTime="2014-05-12T23:50:24.7259381+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="3009f145-bf61-47df-8c21-bb92aae2ea90" relativeResultsDirectory="acfaa59c-b3f7-4039-b486-1921d7970ef9">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c6e1353-635f-46f7-8408-6b522bdaad86" testId="d3237ab3-2af5-ad48-283b-21ece9c13ab9" testName="ExpressionContainsOnlyWhitespaceCharsTest" computerName="ЭЙЧПИ" duration="00:00:00.0035646" startTime="2014-05-12T23:50:24.7269381+06:00" endTime="2014-05-12T23:50:24.7339385+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="3009f145-bf61-47df-8c21-bb92aae2ea90" relativeResultsDirectory="8c6e1353-635f-46f7-8408-6b522bdaad86">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6dacf6d-e082-4b63-b86a-830a4593f9d0" testId="d97ed485-788f-d2ea-0b63-405b8a679f2c" testName="UnsuccessfullyTakeUnaryOperatorTest" computerName="ЭЙЧПИ" duration="00:00:00.0058806" startTime="2014-05-12T23:50:24.7349386+06:00" endTime="2014-05-12T23:50:24.7439391+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" relativeResultsDirectory="e6dacf6d-e082-4b63-b86a-830a4593f9d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="a69f9531-dc04-4482-96f4-6e4e52029e4c" testId="98cf234d-b275-52ba-6058-f321612b0833" testName="SuccessfullySplitExpressionTest" computerName="ЭЙЧПИ" duration="00:00:00.0046858" startTime="2014-05-12T23:50:24.7459392+06:00" endTime="2014-05-12T23:50:24.7529396+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" relativeResultsDirectory="a69f9531-dc04-4482-96f4-6e4e52029e4c">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f239038-229c-4c1a-ab3e-6c1dadcdc62c" testId="55d38ebd-721c-0405-a69f-c7272c52d4fa" testName="SuccessfullyTakeUnaryOperatorTest" computerName="ЭЙЧПИ" duration="00:00:00.0011964" startTime="2014-05-12T23:50:24.7549397+06:00" endTime="2014-05-12T23:50:24.7579399+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" relativeResultsDirectory="9f239038-229c-4c1a-ab3e-6c1dadcdc62c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff49f2cb-8d33-477e-8b28-57aaf189819a" testId="2c53530e-d332-6e20-e6a2-b396da3246a2" testName="UnsuccessfullySplitExpressionTest" computerName="ЭЙЧПИ" duration="00:00:00.0010126" startTime="2014-05-12T23:50:24.7599400+06:00" endTime="2014-05-12T23:50:24.7639403+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="ac8666b7-5560-4f21-9383-072dfa22b433" relativeResultsDirectory="ff49f2cb-8d33-477e-8b28-57aaf189819a">
+    </UnitTestResult>
+    <UnitTestResult executionId="8451adab-4ce8-43df-b2a5-0468048d1366" testId="69fb1872-85d0-e4d0-34f8-ad2b8a621797" testName="VariableLengthValidLexemeParseTest" computerName="ЭЙЧПИ" duration="00:00:00.0120632" startTime="2014-05-12T23:50:24.7649403+06:00" endTime="2014-05-12T23:50:24.7809412+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" relativeResultsDirectory="8451adab-4ce8-43df-b2a5-0468048d1366">
+    </UnitTestResult>
+    <UnitTestResult executionId="495b6d98-5168-4240-b96f-b1bd6999ab5f" testId="0370b01b-b99a-ec90-2544-628dc111273d" testName="InvalidAccessToStepMethodTest" computerName="ЭЙЧПИ" duration="00:00:00.0021056" startTime="2014-05-12T23:50:24.7829413+06:00" endTime="2014-05-12T23:50:24.7879416+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" relativeResultsDirectory="495b6d98-5168-4240-b96f-b1bd6999ab5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="d24702c5-15a1-4a00-b380-a986eccf7e76" testId="6059f41e-71fe-7fd4-021a-ea544a452428" testName="MoreThanOneTransitionAvailableTest" computerName="ЭЙЧПИ" duration="00:00:00.0022454" startTime="2014-05-12T23:50:24.7889417+06:00" endTime="2014-05-12T23:50:24.7949420+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" relativeResultsDirectory="d24702c5-15a1-4a00-b380-a986eccf7e76">
+    </UnitTestResult>
+    <UnitTestResult executionId="c62e0557-ddbd-4118-8fb0-bf530c92479b" testId="920d66cf-0b10-e574-1a3f-4a2a9689ebd2" testName="ResetTest" computerName="ЭЙЧПИ" duration="00:00:00.0017857" startTime="2014-05-12T23:50:24.7979422+06:00" endTime="2014-05-12T23:50:24.8049426+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" relativeResultsDirectory="c62e0557-ddbd-4118-8fb0-bf530c92479b">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d31faa7-2a29-4844-9015-9298812e1b10" testId="62ede6f6-632e-2f0d-bb8f-4cd2451160ec" testName="FixedLengthValidLexemeParseTest" computerName="ЭЙЧПИ" duration="00:00:00.0012170" startTime="2014-05-12T23:50:24.8069427+06:00" endTime="2014-05-12T23:50:24.8129431+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" relativeResultsDirectory="5d31faa7-2a29-4844-9015-9298812e1b10">
+    </UnitTestResult>
+    <UnitTestResult executionId="add04979-cb00-452a-81e8-5256b9d02764" testId="e52307ec-ef93-cac2-9935-76339fac645d" testName="InvalidLexemeParseTest" computerName="ЭЙЧПИ" duration="00:00:00.0013683" startTime="2014-05-12T23:50:24.8149432+06:00" endTime="2014-05-12T23:50:24.8199435+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" relativeResultsDirectory="add04979-cb00-452a-81e8-5256b9d02764">
+    </UnitTestResult>
+    <UnitTestResult executionId="8dfcde0f-be90-437c-bedf-2b60eb50b29b" testId="d4f3ad68-642a-08f1-891e-89400cd105ab" testName="CreateExpressionTreeAndCalculateResultTest" computerName="ЭЙЧПИ" duration="00:00:00.0026350" startTime="2014-05-12T23:50:24.8209435+06:00" endTime="2014-05-12T23:50:24.8269439+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="fa2890fc-f196-40b2-88cb-3ae5e549fa10" relativeResultsDirectory="8dfcde0f-be90-437c-bedf-2b60eb50b29b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

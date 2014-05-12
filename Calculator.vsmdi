@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="LexicalAnalyser" id="0a7f60ae-b2f7-432d-b84f-bae04f7d748f" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="a168ad7d-6f93-75e9-ecff-0ca684e068b0" name="UnknowLexemeTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7090db44-d72d-586c-ad1b-d349f8d9d964" name="SimultaneousSeveralLexemeAnalysersCompletedTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="ec3dc4aa-1f12-fcf4-036d-cc4443e9b1b3" name="CompetitionParseModelTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="2a279429-fdc2-3e7e-57da-2fa373326ed9" name="GreedyParseModelTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="ExpressionAnalyser" id="0f597917-88c7-4171-ba0c-96c42dfcb745" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="9981917e-9bde-1882-bb86-cffc6e28ff5d" name="SimpleExpressionParseTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d90f8e4a-d24c-31b3-92f8-52c7e3dc8c52" name="EmptyExpressionTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="82af90d1-888c-a771-d34e-e15ff56e61d3" name="MissingOpeningBracketTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="f0d6aee8-ce5d-1c1b-221b-444f9f4ced05" name="ComplexExpressionParseTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="232a5548-4871-237d-0e58-a05deb25ed09" name="MissingClosingBracketTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="SyntaxAnalyser" id="2960917e-6f15-4fe4-b57d-a5a67f228275" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="d6d663f5-4193-9a1b-1fd9-9803e8a98594" name="MissingOperandTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="80f5f377-b99a-d8db-8fa6-7b486c6e91fb" name="ValidExpressionParseTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Calculator" id="3009f145-bf61-47df-8c21-bb92aae2ea90" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="59c3eca1-7964-71bf-3367-5970d2784bb6" name="CalculateTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="f1ee1817-cebe-daa2-1b5f-2d1354886c04" name="ExpressionNullTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d3237ab3-2af5-ad48-283b-21ece9c13ab9" name="ExpressionContainsOnlyWhitespaceCharsTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="TaskTest" id="57ab228d-1ab5-4b4d-a78c-a19f4f92d639" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+  <TestList name="Списки тестов" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration id="44e2f2f2-61dd-42f3-be50-d92d9303a85e" name="Локальные" storage="local.testsettings" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration, Microsoft.VisualStudio.QualityTools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestList>
+  <TestList name="ExpressionLexeme" id="ac8666b7-5560-4f21-9383-072dfa22b433" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="2c53530e-d332-6e20-e6a2-b396da3246a2" name="UnsuccessfullySplitExpressionTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d97ed485-788f-d2ea-0b63-405b8a679f2c" name="UnsuccessfullyTakeUnaryOperatorTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="98cf234d-b275-52ba-6058-f321612b0833" name="SuccessfullySplitExpressionTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="55d38ebd-721c-0405-a69f-c7272c52d4fa" name="SuccessfullyTakeUnaryOperatorTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="LexemeAnalyserBase" id="cc4b361a-bec2-46f5-a4fa-42cd84527c1f" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="920d66cf-0b10-e574-1a3f-4a2a9689ebd2" name="ResetTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="e52307ec-ef93-cac2-9935-76339fac645d" name="InvalidLexemeParseTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="62ede6f6-632e-2f0d-bb8f-4cd2451160ec" name="FixedLengthValidLexemeParseTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="69fb1872-85d0-e4d0-34f8-ad2b8a621797" name="VariableLengthValidLexemeParseTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="0370b01b-b99a-ec90-2544-628dc111273d" name="InvalidAccessToStepMethodTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="6059f41e-71fe-7fd4-021a-ea544a452428" name="MoreThanOneTransitionAvailableTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="ExpressionTree" id="fa2890fc-f196-40b2-88cb-3ae5e549fa10" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="d4f3ad68-642a-08f1-891e-89400cd105ab" name="CreateExpressionTreeAndCalculateResultTest" storage="task.tests\bin\debug\task.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

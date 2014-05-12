@@ -1,0 +1,4 @@
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Task.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Task.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\obj\x86\Debug\Task.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\obj\x86\Debug\Task.pdb

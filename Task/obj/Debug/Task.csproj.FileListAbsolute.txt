@@ -1,0 +1,6 @@
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Task.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Task.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Ninject.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\bin\Debug\Ninject.xml
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\obj\Debug\Task.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task\obj\Debug\Task.pdb

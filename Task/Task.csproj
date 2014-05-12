@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A048536E-84F5-4C5D-88C5-11D742F41AD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Task</RootNamespace>
+    <AssemblyName>Task</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Task.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Task.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net40\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculator\Calculator.cs" />
+    <Compile Include="Calculator\ICalculator.cs" />
+    <Compile Include="Calculator\PriorityCategoryBase.cs" />
+    <Compile Include="LexemeAnalyser\CharCategoryBase.cs" />
+    <Compile Include="Lexeme\Abstracts.cs" />
+    <Compile Include="Lexeme\Concretes.cs" />
+    <Compile Include="Lexeme\LexemeKind.cs" />
+    <Compile Include="LexicalAnalyser\DefaultLexemeAnalyserSet.cs" />
+    <Compile Include="LexicalAnalyser\LexemeAnalyserSetBase.cs" />
+    <Compile Include="LexemeAnalyser\CharCategories.cs" />
+    <Compile Include="Other\DIContainer.cs" />
+    <Compile Include="ExpressionAnalyser\ExpressionAnalyser.cs" />
+    <Compile Include="ExpressionTree\ExpressionTree.cs" />
+    <Compile Include="ExpressionTree\ExpressionTreeNode.cs" />
+    <Compile Include="ExpressionTree\IExpressionTree.cs" />
+    <Compile Include="ExpressionTree\ParentBranchKind.cs" />
+    <Compile Include="LexemeAnalyser\ICharCategory.cs" />
+    <Compile Include="Other\Exceptions.cs" />
+    <Compile Include="ExpressionAnalyser\IExpressionAnalyser.cs" />
+    <Compile Include="LexemeAnalyser\ILexemeAnalyser.cs" />
+    <Compile Include="LexicalAnalyser\ILexicalAnalyser.cs" />
+    <Compile Include="ExpressionLexeme\ExpressionLexeme.cs" />
+    <Compile Include="ExpressionLexeme\ExpressionLexemeFactory.cs" />
+    <Compile Include="ExpressionLexeme\IExpressionLexemeFactory.cs" />
+    <Compile Include="ExpressionLexeme\IExpressionLexeme.cs" />
+    <Compile Include="Lexeme\ILexeme.cs" />
+    <Compile Include="LexemeAnalyser\LexemeAnalyserBase.cs" />
+    <Compile Include="LexemeAnalyser\LexemeAnalysers.cs" />
+    <Compile Include="LexemeAnalyser\LexemeAnalyserStatus.cs" />
+    <Compile Include="LexemeAnalyser\Transition.cs" />
+    <Compile Include="LexemeAnalyser\TransitionKind.cs" />
+    <Compile Include="LexicalAnalyser\LexicalAnalyser.cs" />
+    <Compile Include="Calculator\DefaultPriorityCategoryRegister.cs" />
+    <Compile Include="Calculator\PriorityCategories.cs" />
+    <Compile Include="Calculator\IPriorityCategory.cs" />
+    <Compile Include="Calculator\PriorityCategoryRegisterBase.cs" />
+    <Compile Include="LexemeAnalyser\TransitionTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SyntaxAnalyser\ISyntaxAnalyser.cs" />
+    <Compile Include="SyntaxAnalyser\SyntaxAnalyser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

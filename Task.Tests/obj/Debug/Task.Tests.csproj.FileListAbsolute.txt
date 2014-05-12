@@ -1,0 +1,11 @@
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Task.Tests.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Task.Tests.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Moq.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Task.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Ninject.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Task.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Moq.xml
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\bin\Debug\Ninject.xml
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\obj\Debug\Task.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\obj\Debug\Task.Tests.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Task.Tests\obj\Debug\Task.Tests.pdb

@@ -1,0 +1,9 @@
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\bin\Debug\Client.exe
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\bin\Debug\Client.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\bin\Debug\Task.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\bin\Debug\Ninject.dll
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\bin\Debug\Task.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\bin\Debug\Ninject.xml
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\obj\x86\Debug\Client.exe
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\obj\x86\Debug\Client.pdb
+C:\Users\Valentin\SkyDrive\Visual Studio Projects\ByndyuSoft\Calculator\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
